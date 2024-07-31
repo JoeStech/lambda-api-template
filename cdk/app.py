@@ -1,7 +1,7 @@
 import os
 import aws_cdk as cdk
-import courthouse_stack
+import hello_stack
 
 app = cdk.App()
-courthouse_stack.CourthouseStack(app, "courthouse")
+hello_stack.HelloStack(app, "hello")
 app.synth()
