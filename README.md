@@ -11,4 +11,13 @@ Edit app_handler.py to include your API logic.
 
 Run `deploy.py` and have fun with your new serverless API!
 
+## Installing build tools
 
+brew install node@20
+npm install -g aws-cdk
+python -m venv venv
+cd cdk
+pip install -r requirements.txt
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+./aws/install
